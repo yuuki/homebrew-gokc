@@ -1,5 +1,5 @@
-class gokc < Formula
-  gokc_version = '0.1.-'
+class Gokc < Formula
+  gokc_version = '0.1.0'
   homepage 'https://github.com/yuuki1/gokc'
   version gokc_version
 
