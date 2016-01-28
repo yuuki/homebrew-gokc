@@ -5,7 +5,7 @@ class Gokc < Formula
 
   if Hardware.is_64_bit?
     url "https://github.com/yuuki1/gokc/releases/download/v#{gokc_version}/gokc_darwin_amd64.zip"
-    sha256 'cce10f5b8e4073bad423688a0d46871e1e4816d44be54329be444378b8f0f4ba'
+    sha256 '41d61b57efb0201c3570bcce988c51f8f2812a36d6484a587bd45ba472e79ac8'
   else
     url "https://github.com/yuuki1/gokc/releases/download/v#{gokc_version}/gokc_darwin_386.zip"
     sha256 '92bab62a5dcac6dde40df08fb8e652e252c93c82f9cdb6fef26f0f5f622390e6'
