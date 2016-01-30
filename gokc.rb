@@ -1,14 +1,14 @@
 class Gokc < Formula
-  gokc_version = '0.2.0'
+  gokc_version = '0.3.0'
   homepage 'https://github.com/yuuki1/gokc'
   version gokc_version
 
   if Hardware.is_64_bit?
     url "https://github.com/yuuki1/gokc/releases/download/v#{gokc_version}/gokc_darwin_amd64.zip"
-    sha256 '41d61b57efb0201c3570bcce988c51f8f2812a36d6484a587bd45ba472e79ac8'
+    sha256 '5679fb318134e6c27fd726955f2d15bf9be21ca9a98110b13b64b1552eb55240'
   else
     url "https://github.com/yuuki1/gokc/releases/download/v#{gokc_version}/gokc_darwin_386.zip"
-    sha256 '92bab62a5dcac6dde40df08fb8e652e252c93c82f9cdb6fef26f0f5f622390e6'
+    sha256 'd263d5dde6d2e466611f73f0ea9855a742d2db9ed4adca9882f368b62b65b786'
   end
 
   head do
