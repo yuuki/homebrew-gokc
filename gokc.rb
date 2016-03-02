@@ -5,10 +5,10 @@ class Gokc < Formula
 
   if Hardware.is_64_bit?
     url "https://github.com/yuuki1/gokc/releases/download/v#{gokc_version}/gokc_darwin_amd64.zip"
-    sha256 '4050c9d24f820133c03a7dd1bbdbea771a7dc8eb482accdd865314aa6f4cf4e0'
+    sha256 '686f2f743651538e206d534b4d786bfb1845fe9002b9614e203c898020b36b77'
   else
     url "https://github.com/yuuki1/gokc/releases/download/v#{gokc_version}/gokc_darwin_386.zip"
-    sha256 '608a2b7da47c6e6d33cd5dbe6f0c17d80659d563c97cfd86d91efd46365bc16b'
+    sha256 '022f61d18f37b6f2428a655e3144463aba51fc2d5cb078c9dc1c038417e92fc0'
   end
 
   head do
