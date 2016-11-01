@@ -3,7 +3,7 @@ class Gokc < Formula
   homepage 'https://github.com/yuuki/gokc'
   version gokc_version
 
-  if Hardware.is_64_bit?
+  if Hardware::CPU.is_64_bit?
     url "https://github.com/yuuki/gokc/releases/download/v#{gokc_version}/gokc_darwin_amd64.zip"
     sha256 '686f2f743651538e206d534b4d786bfb1845fe9002b9614e203c898020b36b77'
   else
