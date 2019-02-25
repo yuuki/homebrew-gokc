@@ -1,10 +1,10 @@
 class Gokc < Formula
-  gokc_version = '0.4.0'
+  gokc_version = '0.4.1'
   homepage 'https://github.com/yuuki/gokc'
   version gokc_version
 
   url "https://github.com/yuuki/gokc/releases/download/v#{gokc_version}/gokc_darwin_amd64.zip"
-  sha256 'b0c8ebbed2d1d52f3dd2965bc4fef8d9083b1378aacd4f3961bcee4fadd519d6'
+  sha256 'a1e6217bdd0a07ff8ae2c06e00fccd6b0e9078fb6fa1c369aae5c753c5cda276'
 
   head do
     url 'https://github.com/yuuki/gokc.git'
