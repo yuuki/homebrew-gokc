@@ -4,7 +4,7 @@ class Gokc < Formula
   version gokc_version
 
   url "https://github.com/yuuki/gokc/releases/download/v#{gokc_version}/gokc_darwin_amd64.zip"
-  sha256 'a1e6217bdd0a07ff8ae2c06e00fccd6b0e9078fb6fa1c369aae5c753c5cda276'
+  sha256 '682635d9a582367151024714f87b7c098638e7248b01d64b93c1a75b3a9228e5'
 
   head do
     url 'https://github.com/yuuki/gokc.git'
